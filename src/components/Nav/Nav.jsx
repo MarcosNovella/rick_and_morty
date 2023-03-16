@@ -11,6 +11,9 @@ function Nav({onSearch}){
             <NavLink to='/about'>
                 <span>About</span>
             </NavLink>
+            <NavLink to='/favorites'>
+                <span>Favorites</span>
+            </NavLink>
             <SearchBar onSearch={onSearch}/>
             
         </div>
